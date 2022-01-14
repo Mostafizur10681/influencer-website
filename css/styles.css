@@ -11,8 +11,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
     font-family: 'Roboto', sans-serif;
 }
 .container{
@@ -96,4 +94,68 @@ body{
     background-image: url(../assets/images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: cover;
+}
+
+/*---------------------
+=====Companies Sponser Part====
+----------------------- */
+.companies{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    border-top: 1px solid #3A3A3A;
+    border-bottom: 1px solid #3A3A3A;
+    padding: 35px 0;
+
+}
+
+/*--------------------
+========Popular Part======
+-----------------------*/
+
+.popular-title{
+    font-size: 28px;
+    text-align: center;
+    margin: 50px 0;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    grid-row-gap: 30px;
+}
+.product{
+    padding: 15px;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: rgba(32, 31, 31, 0.226) 0px 2px 8px 0px;
+}
+.product .product-img img{
+    width: 100%;
+}
+.product-name{
+    font-size: 28px;
+    padding-top: 16px;
+    margin-bottom: 6px;
+}
+.product-price{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.product-details i{
+    color: #3A3A3A;
+    font-size: 16px;
+    padding: 0;
+}
+.see-button{
+    text-align: right;
+    text-decoration: none;
+    color: #E02C6D;
+    display: block;
+    font-size: 16px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.see-button i{
+    color: #E02C6D;
+    font-size: 16px;
 }
