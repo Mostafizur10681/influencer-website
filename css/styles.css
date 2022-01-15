@@ -108,7 +108,7 @@
     transition: transform 5s ease-in-out;
 }
 .banner-right img:hover{
-    transform: rotate(180deg);
+    transform: rotate(360deg);
 }
 
 /*---------------------
@@ -331,5 +331,6 @@
     }
     .btn-link{
         margin: 5px 0;
+
     }
 }
