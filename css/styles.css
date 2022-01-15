@@ -266,6 +266,9 @@
     cursor: pointer;
     padding: 0 10px;
 }
+.social-icon i:hover{
+    color: #E02C6D;
+}
 
 /*--------------------
 ======Media Query======
